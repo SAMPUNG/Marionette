@@ -4,215 +4,216 @@ author: SAMPUNG
 
 email: illhyearn@163.com>
 
-1. Init project with vue-cli@3 and webpack
+### Init project with vue-cli@3 and webpack
 
 ```shell
 vue init webpack test
 ```
-  1. When: 
 
-  ```shell
-  ? Project name (test)
-  ```
-  Press 【Enter】, result:
+1. When:
 
-  ```shell
-  ? Project name test
-  ```
+```shell
+? Project name (test)
+```
+Press 【Enter】, result:
 
-  2. When: 
+```shell
+? Project name test
+```
 
-  ```shell
-  ? Project description (A Vue.js project)
-  ```
-  Press 【Enter】, result:
+2. When:
 
-  ```shell
-  ? Project description A Vue.js project
-  ```
+```shell
+? Project description (A Vue.js project)
+```
+Press 【Enter】, result:
 
-  3. When: 
+```shell
+? Project description A Vue.js project
+```
 
-  ```shell
-  ? Author (SAMPUNG <illhyearn@163.com>)
-  ```
-  Press 【Enter】, result:
+3. When:
 
-  ```shell
-  ? Author SAMPUNG <illhyearn@163.com>
-  ```
+```shell
+? Author (SAMPUNG <illhyearn@163.com>)
+```
+Press 【Enter】, result:
 
-  4. When: 
+```shell
+? Author SAMPUNG <illhyearn@163.com>
+```
 
-  ```shell
-  ? Vue build (Use arrow keys)
-  ? Install vue-router? Yes
-  > Runtime + Compiler: recommended for most users
-    Runtime-only: about 6KB lighter min+gzip, but templates (or any Vue-specific HTML) are ONLY allowed in .vue files - render functions are required elsewhere
-  ```
-  Press 【Enter】, result:
+4. When:
 
-  ```shell
-  ? Vue build standalone
-  ```
+```shell
+? Vue build (Use arrow keys)
+? Install vue-router? Yes
+> Runtime + Compiler: recommended for most users
+  Runtime-only: about 6KB lighter min+gzip, but templates (or any Vue-specific HTML) are ONLY allowed in .vue files - render functions are required elsewhere
+```
+Press 【Enter】, result:
 
-  5. When: 
+```shell
+? Vue build standalone
+```
 
-  ```shell
-  ? Install vue-router? (Y/n)
-  ```
+5. When:
 
-  Press 【Enter】, result:
+```shell
+? Install vue-router? (Y/n)
+```
 
-  ```shell
-  ? Install vue-router? Yes
-  ```
+Press 【Enter】, result:
 
-  6. When: 
+```shell
+? Install vue-router? Yes
+```
 
-  ```shell
-  ? Use ESLint to lint your code? (Y/n)
-  ```
+6. When:
 
-  Press 【Enter】, result:
+```shell
+? Use ESLint to lint your code? (Y/n)
+```
 
-  ```shell
-  ? Use ESLint to lint your code? Yes
-  ```
+Press 【Enter】, result:
 
-  7. When: 
+```shell
+? Use ESLint to lint your code? Yes
+```
 
-  ```shell
-  ? Pick an ESLint preset (Use arrow keys)
-  > Standard (https://github.com/standard/standard)
-    Airbnb (https://github.com/airbnb/javascript)
-    none (configure it yourself)
-  ```
+7. When:
 
-  Press 【Enter】, result:
+```shell
+? Pick an ESLint preset (Use arrow keys)
+> Standard (https://github.com/standard/standard)
+  Airbnb (https://github.com/airbnb/javascript)
+  none (configure it yourself)
+```
 
-  ```shell
-  ? Pick an ESLint preset Standard
-  ```
-  
-  8. When: 
+Press 【Enter】, result:
 
-  ```shell
-  ? Set up unit tests (Y/n)
-  ```
+```shell
+? Pick an ESLint preset Standard
+```
 
-  Press 【n】 then 【Enter】, result:
+8. When:
 
-  ```shell
-  ? Set up unit tests No
-  ```
+```shell
+? Set up unit tests (Y/n)
+```
 
-  Or press 【Enter】, result:
+Press 【n】 then 【Enter】, result:
 
-  ```shell
-  ? Set up unit tests Yes
-  ```
+```shell
+? Set up unit tests No
+```
 
-  Then when: 
+Or press 【Enter】, result:
 
-  ```shell
-  ? Pick a test runner (Use arrow keys)
-    Jest
-  > Karma and Mocha
-    none (configure it yourself)
-  ```
-  Press 【Enter】, result:
+```shell
+? Set up unit tests Yes
+```
 
-  ```shell
-  ? Pick a test runner karma
-  ```
+Then when:
 
-  9. When: 
+```shell
+? Pick a test runner (Use arrow keys)
+  Jest
+> Karma and Mocha
+  none (configure it yourself)
+```
+Press 【Enter】, result:
 
-  ```shell
-  ? Setup e2e tests with Nightwatch? (Y/n)
-  ```
+```shell
+? Pick a test runner karma
+```
 
-  Press 【Enter】 , result:
+9. When:
 
-  ```shell
-  ? Setup e2e tests with Nightwatch? Yes
-  ```
+```shell
+? Setup e2e tests with Nightwatch? (Y/n)
+```
 
-  Or press 【n】 then 【Enter】, result:
+Press 【Enter】 , result:
 
-  ```shell
-  ? Setup e2e tests with Nightwatch? No
-  ```
+```shell
+? Setup e2e tests with Nightwatch? Yes
+```
 
-  10. When：
+Or press 【n】 then 【Enter】, result:
 
-  ```shell
-  ? Should we run `npm install` for you after the project has been created? (recommended) (Use arrow keys)
-  > Yes, use NPM
-    Yes, use Yarn
-    No, I will handle that myself
-  ```
+```shell
+? Setup e2e tests with Nightwatch? No
+```
 
-  Press 【Enter】, result:
+10. When：
 
-  ```shell
-  ? Should we run `npm install` for you after the project has been created? (recommended) npm
-  ```
+```shell
+? Should we run `npm install` for you after the project has been created? (recommended) (Use arrow keys)
+> Yes, use NPM
+  Yes, use Yarn
+  No, I will handle that myself
+```
 
-3. For axios
+Press 【Enter】, result:
+
+```shell
+? Should we run `npm install` for you after the project has been created? (recommended) npm
+```
+
+### For axios
 
 ```shell
 vue add axios
 ```
 
-4. For view-design(iview)
+### For view-design(iview)
 
 ```shell
 vue add iview
 ```
 
-  1. When: 
+1. When:
 
-  ```shell
-  ? How do you want to import ViewUI(iView)? (Use arrow keys)
-    Fully import
-  > Import on demand
-  ```
+```shell
+? How do you want to import ViewUI(iView)? (Use arrow keys)
+  Fully import
+> Import on demand
+```
 
-  Press 【↓】 to select "Import on demand", then press【Enter】, result:
+Press 【↓】 to select "Import on demand", then press【Enter】, result:
 
-  ```shell
-  ? How do you want to import ViewUI(iView)? Import on demand
-  ```
+```shell
+? How do you want to import ViewUI(iView)? Import on demand
+```
 
-  2. When: 
+2. When:
 
-  ```shell
-  ? Choose the locale you want to load (Use arrow keys)
-  > zh-CN
-    zh-TW
-    cs-CZ
-    de-DE
-    el-GR
-    en-US
-    es-ES
-  (Move up and down to reveal more choices)
-  ```
+```shell
+? Choose the locale you want to load (Use arrow keys)
+> zh-CN
+  zh-TW
+  cs-CZ
+  de-DE
+  el-GR
+  en-US
+  es-ES
+(Move up and down to reveal more choices)
+```
 
-  Press 【Enter】, result:
+Press 【Enter】, result:
 
-  ```shell
-  ? Choose the locale you want to load zh-CN
-  ```
+```shell
+? Choose the locale you want to load zh-CN
+```
 
-  3. Then input: 
+3. Then input:
 
-  ```shell
-  npm add babel-plugin-import
-  ```
+```shell
+npm add babel-plugin-import
+```
 
-5. For Promise
+### For Promise
 
 ```shell
 npm install --save babel-polyfill
