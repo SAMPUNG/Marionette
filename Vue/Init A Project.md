@@ -207,7 +207,23 @@ Press 【Enter】, result:
 ? Choose the locale you want to load zh-CN
 ```
 
-3. Update build\webpack.base.conf.js module.exports.module.rules[test=/\.js$/].include as:
+3. Then input:
+
+```shell
+npm add babel-plugin-import
+```
+
+4. Update build\utils.js exports.cssLoaders.return.less
+
+```shell
+exports.cssLoaders = function (options) {
+  return {
+    less: generateLoaders('less', { javascriptEnabled: true })
+  }
+}
+```
+
+5. Update build\webpack.base.conf.js module.exports.module.rules[test=/\.js$/].include as:
 
 ```javascript
 module.exports = {
@@ -226,12 +242,6 @@ module.exports = {
     ]
   }
 }
-```
-
-3. Then input:
-
-```shell
-npm add babel-plugin-import
 ```
 
 ### For Promise
