@@ -46,11 +46,8 @@ vue init webpack test
 
   ```shell
   ? Vue build (Use arrow keys)
-
   ? Install vue-router? Yes
-
   > Runtime + Compiler: recommended for most users
-
     Runtime-only: about 6KB lighter min+gzip, but templates (or any Vue-specific HTML) are ONLY allowed in .vue files - render functions are required elsewhere
   ```
   Press 【Enter】, result:
@@ -87,11 +84,8 @@ vue init webpack test
 
   ```shell
   ? Pick an ESLint preset (Use arrow keys)
-
   > Standard (https://github.com/standard/standard)
-
     Airbnb (https://github.com/airbnb/javascript)
-
     none (configure it yourself)
   ```
 
@@ -123,11 +117,8 @@ vue init webpack test
 
   ```shell
   ? Pick a test runner (Use arrow keys)
-
     Jest
-
   > Karma and Mocha
-
     none (configure it yourself)
   ```
   Press 【Enter】, result:
@@ -158,11 +149,8 @@ vue init webpack test
 
   ```shell
   ? Should we run `npm install` for you after the project has been created? (recommended) (Use arrow keys)
-
   > Yes, use NPM
-
     Yes, use Yarn
- 
     No, I will handle that myself
   ```
 
@@ -188,9 +176,7 @@ vue add iview
 
   ```shell
   ? How do you want to import ViewUI(iView)? (Use arrow keys)
-
     Fully import
-
   > Import on demand
   ```
 
@@ -204,21 +190,13 @@ vue add iview
 
   ```shell
   ? Choose the locale you want to load (Use arrow keys)
-
   > zh-CN
-
     zh-TW
-
     cs-CZ
-
-   de-DE
-
-   el-GR
-
-   en-US
-
-   es-ES
- 
+    de-DE
+    el-GR
+    en-US
+    es-ES
   (Move up and down to reveal more choices)
   ```
 
