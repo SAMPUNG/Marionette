@@ -244,6 +244,16 @@ module.exports = {
 }
 ```
 
+6. Update EsLint .eslintrc.js
+
+```javascript
+module.exports = {
+  rules: {
+    "vue/no-parsing-error": [2, { "x-invalid-end-tag": false }]
+  }
+}
+```
+
 ### For Promise
 
 ```shell
