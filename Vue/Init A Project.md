@@ -41,5 +41,5 @@ vue add iview
 5. For Promise
 
 ```shell
-  npm install --save babel-polyfill
+npm install --save babel-polyfill
 ```
