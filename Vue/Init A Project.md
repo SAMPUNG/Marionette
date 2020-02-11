@@ -207,6 +207,27 @@ Press 【Enter】, result:
 ? Choose the locale you want to load zh-CN
 ```
 
+3. Update build\webpack.base.conf.js module.exports.module.rules[test=/\.js$/].include as:
+
+```javascript
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        include: [
+          resolve('src'),
+          resolve('test'),
+          resolve('node_modules/webpack-dev-server/client'),
+          resolve('node_modules/view-design/src')
+        ]
+      },
+    ]
+  }
+}
+```
+
 3. Then input:
 
 ```shell
