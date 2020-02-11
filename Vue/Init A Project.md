@@ -1,12 +1,12 @@
 1. Init project with vue-cli@3 and webpack
 
-```cmd
+```shell
 vue init webpack <name>
 ```
 
 2. Set options
 
-```cmd
+```shell
 Project name：输入项目的名称（不能过长，不能为中文）
 
 Project description：项目的描述
@@ -28,18 +28,18 @@ Setup e2e tests with Nightwatch：不明确（yes）
 
 3. For axios
 
-```cmd
+```shell
 vue add axios
 ```
 
 4. For view-design(iview)
 
-```cmd
+```shell
 vue add iview
 ```
 
-5. For promise
+5. For Promise
 
-```cmd
+```shell
   npm install --save babel-polyfill
 ```
